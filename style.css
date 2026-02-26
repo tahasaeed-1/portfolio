@@ -46,6 +46,8 @@ header nav a{
   height:100vh;
   object-fit:cover;
   position:absolute;
+  top:0;
+  left:0;
   opacity:0;
   transition:1s;
 }
