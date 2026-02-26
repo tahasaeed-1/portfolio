@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>My Portfolio</title>
-  <link rel="stylesheet" href="Untitled-2.css">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
@@ -14,16 +14,16 @@
   <nav>
     <a href="#home">Home</a>
     <a href="#portfolio">Portfolio</a>
-    <a href="#contact">Contact</a>
+    <a href="contact.html">Contact</a>
   </nav>
 </header>
 
 <!-- Home -->
 <section id="home" class="hero">
   <div class="slider">
-    <img src="https://picsum.photos/1200/600?1" class="active">
-    <img src="https://picsum.photos/1200/600?2">
-    <img src="https://picsum.photos/1200/600?3">
+    <img src="image/1.jpg" class="active">
+    <img src="image/2.png">
+    <img src="image/3.png">
   </div>
 
   <h1 class="fade">Welcome to My Portfolio</h1>
@@ -39,17 +39,17 @@
   <div class="grid">
 
     <div class="card" data-title="Project 1">
-      <img src="https://picsum.photos/300?4">
+      <img src="image/4.png">
       <p>Project 1</p>
     </div>
 
     <div class="card" data-title="Project 2">
-      <img src="https://picsum.photos/300?5">
+      <img src="image/5.png">
       <p>Project 2</p>
     </div>
 
     <div class="card" data-title="Project 3">
-      <img src="https://picsum.photos/300?6">
+      <img src="image/6.png">
       <p>Project 3</p>
     </div>
 
@@ -65,25 +65,7 @@
   </div>
 </div>
 
-<!-- Contact -->
-<section id="contact">
-  <h2>Contact Me</h2>
 
-  <form id="contactForm">
-
-    <input type="text" id="name" placeholder="Name">
-    <input type="email" id="email" placeholder="Email">
-    <input type="text" id="subject" placeholder="Subject">
-
-    <textarea id="message" placeholder="Message"></textarea>
-
-    <button type="submit">Send</button>
-
-    <p id="formMsg"></p>
-
-  </form>
-</section>
-
-<script src="Untitled-1.js"></script>
+<script src="script.js"></script>
 </body>
 </html>
